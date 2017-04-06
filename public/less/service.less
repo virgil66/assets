@@ -1,0 +1,708 @@
+@import "common";
+@import "data";
+@import "news";
+
+.enjoy-service{
+	.width-max();
+	.bgColor(@color_ed);
+	.margin-tp(@hd_height);
+	.newsBanner;
+	.container{
+		.width-max();
+		.bgColor(@color_f2);
+		.service-progress{
+			.width-max();
+			.text-al(center);
+			.bgColor(@color_f2);
+			.padding(20px 0);
+			>span.service-type{
+				.color(@color_a6);
+				.display(ib);
+				.border-rt(1px,solid,#d5d5d5);
+				cursor: pointer;
+				.padding(0 40px);
+				.fontSize(24px);
+			}
+			>span.service-type:last-child{
+				.border-rt(0px,solid,#d5d5d5);
+			}
+			>span.service-type.active{
+				.color(@color_4d);
+			}
+		}
+		>ul.service-content{
+			.width-max();
+			.bgColor(@color_e6);
+			>li.service-items{
+				.display(n);
+				.width-max();
+				.bgColor(@color_e6);
+				.container{
+					.bgColor(@color_e6);
+					.width-max();
+					.padding(25px 0 50px 0);
+					.enjoy-head{
+						.padding(0 80px);
+						.margin(25px 0);
+						>h1.level-1{
+							.width-max();
+							.color(@color_4d);
+							.fontSize(30px);
+							.fontWeight(100);
+							>span{
+								text-transform: uppercase;
+								vertical-align: middle;
+								.color(@color_a6);
+								.fontSize(20px);
+								.margin-lt(8px);
+							}
+						}
+					}
+					.enjoy-body{
+						>p.paragraph{
+							.padding(0 80px);
+						}
+					}
+				}
+			}
+			>li.service-items.active{
+				.display(b);
+			}
+			.subscription{
+				.container{
+					.enjoy-body{
+						.width-max();
+						>p.paragraph{
+							.color(@color_80);
+							.fontSize(14px);
+							.margin-bm(18px);
+						}
+						.subscription-content{
+							.width-max();
+							.clearfix;
+							.margin(68px 0);
+							.padding(0 80px);
+							>span{
+								vertical-align: middle;
+							}
+							.subscription-lt{
+								.display(ib);
+								.width(45%);
+								.text-al(center);
+								>img{
+									.width(618px);
+									vertical-align: middle;
+								}
+							}
+							.subscription-rt{
+								.display(ib);
+								.width(54%);
+								>p.paragraph{
+									.color(@color_4c);
+									.fontSize(20px);
+									.margin-bm(32px);
+									.fontWeight(bold);
+								}
+							}
+						}
+					}
+				}
+			}
+			.booking{
+				.container{
+					.enjoy-body{
+						.width-max();
+						>p.paragraph{
+							.color(@color_80);
+							.fontSize(14px);
+							.margin-bm(18px);
+						}
+						>form.online-booking{
+							.width-max();
+							.padding(0 80px);
+							.form-groups{
+								.display(ib);
+								.width(33%);
+								.margin-bm(50px);
+								.padding-rt(96px);
+								>label,
+								>input,
+								>textarea{
+									.width-max();
+									outline: none;
+									.display(b);
+									.fontSize(14px);
+								}
+								>label{
+									.color(@color_4d);
+									text-transform: uppercase;
+									.margin-bm(15px);
+
+								}
+								>input{
+									.color(@color_a6);
+									.bgColor(@color_ed);
+									.border(1px,solid,#ccc);
+									.text-in(20px);
+									.height(48px);
+								}
+							}
+							.form-groups.form-textarea{
+								.width-max();
+								>textarea{
+									resize: none;
+									.color(@color_a6);
+									.bgColor(@color_ed);
+									.border(1px,solid,#ccc);
+									.text-in(20px);
+									.height(156px);
+									.padding-tp(15px);
+								}
+							}
+							.btn-submit{
+								.text-al(center);
+								.margin(30px auto 0);
+								text-transform: uppercase;
+								letter-spacing: 1px;
+								cursor: pointer;
+								.bgColor(#498cae);
+								.color(@color_ff);
+								.width(854px);
+								.line-height(56px);
+								.fontSize(18px);
+							}
+							>p.paragraph{
+								.width-max();
+								.text-al(center);
+								.color(@color_80);
+								.fontSize(14px);
+								.margin(80px 0 30px);
+							}
+						}
+					}
+				}
+			}
+			.question{
+				.container{
+					padding-bottom: 0 !important;
+					.enjoy-body{
+						.width-max();
+						>p.paragraph{
+							.color(@color_80);
+							.fontSize(14px);
+							.margin-bm(18px);
+						}
+						.questions-answers{
+							.width-max();
+							.plate{
+								.width-max();
+								.padding(40px 80px);
+								.questions{
+									.width-max();
+									.pos(rel);
+									>span{
+										.pos(abs);
+										.left(0);
+										.top(0);
+										.display(ib);
+										.color(@color_80);
+										.fontSize(20px);
+										.margin(0 20px);
+									}
+									>p.questios-info{
+										.margin-lt(60px);
+										.color(#498cae);
+										.fontSize(14px);
+										.fontWeight(bold);
+										.margin-bm(20px);
+									}
+								}
+								.answers{
+									.width-max();
+									.pos(rel);
+									>span{
+										.pos(abs);
+										.left(0);
+										.top(0);
+										.display(ib);
+										.color(@color_80);
+										.fontSize(20px);
+										.margin(0 20px);
+									}
+									.answers-groups{
+										.padding-lt(60px);
+										>p.answers-info{
+											.color(@color_80);
+											.fontSize(14px);
+											.margin-bm(20px);
+										}
+									}
+								}
+							}
+							.plate:nth-child(odd){
+								.bgColor(@color_e6);
+							}
+							.plate:nth-child(even){
+								.bgColor(@color_f2);
+							}
+						}
+					}
+				}
+			}
+			.download{
+				.container{
+					.enjoy-body{
+						.width-max();
+						>p.paragraph{
+							.color(@color_80);
+							.fontSize(14px);
+							.margin-bm(18px);
+						}
+						>p.paragraph:last-child{
+							.margin-bm(0);
+						}
+						>ul.download-center{
+							.width-max();
+							.clearfix;
+							.padding(0 80px);
+							>li{
+								.width(25%);
+								.fl();
+								.container{
+									.width-max();
+									.clearfix;
+									.download-lt{
+										.fl();
+										.bgColor(#498cae);
+										.text-al(center);
+										.width(140px);
+										.line-height(67px);
+										.margin(0 20px);	
+										>a{
+											.color(@color_ff);
+											text-transform: uppercase;
+											.fontSize(14px);
+										}
+										>a:hover{
+											text-decoration: underline;
+										}
+									}
+									.download-rt{
+										.width(250px);
+										.fl();
+										.date{
+											.color(#498cae);
+											text-transform: uppercase;
+											.fontSize(14px);
+											.margin-bm(10px);
+										}
+										>h3.level-3{
+											text-transform: uppercase;
+											.color(@color_4d);
+											.fontWeight(bold);
+											.fontSize(14px);
+										}
+										>p.download-info{
+											.color(@color_a6);
+											.fontSize(14px);
+											.overflow();
+											text-overflow: ellipsis;
+											-webkit-text-overflow: ellipsis;
+											-moz-text-overflow: ellipsis;
+											-mz-text-overflow: ellipsis;
+											-o-text-overflow: ellipsis;
+											white-space: nowrap;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1919px){
+	.enjoy-service{
+		.margin-tp(@sm_height);
+		.newsBannerMin;
+		.container{
+			.service-progress{
+				.padding(15px 0);
+				>span.service-type{
+					.padding(0 30px);
+					.fontSize(18px);
+				}
+			}
+			>ul.service-content{
+				>li.service-items{
+					.container{
+						.padding(18px 0 36px 0);
+						.enjoy-head{
+							.padding(0 60px);
+							.margin(18px 0);
+							>h1.level-1{
+								.fontSize(22px);
+								>span{
+									.fontSize(15px);
+									.margin-lt(8px);
+								}
+							}
+						}
+						.enjoy-body{
+							>p.paragraph{
+								.padding(0 60px);
+							}
+						}
+					}
+				}
+				.subscription{
+					.container{
+						.enjoy-body{
+							>p.paragraph{
+								.fontSize(12px);
+								.margin-bm(13px);
+							}
+							.subscription-content{
+								.margin(51px 0);
+								.padding(0 60px);
+								.subscription-lt{
+									.width(45%);
+									>img{
+										.width(463px);
+									}
+								}
+								.subscription-rt{
+									.width(54%);
+									>p.paragraph{
+										.fontSize(15px);
+										.margin-bm(24px);
+									}
+								}
+							}
+						}
+					}
+				}
+				.booking{
+					.container{
+						.enjoy-body{
+							>p.paragraph{
+								.fontSize(12px);
+								.margin-bm(13px);
+							}
+							>form.online-booking{
+								.padding(0 60px);
+								.form-groups{
+									.width(33%);
+									.margin-bm(37px);
+									.padding-rt(72px);
+									>label,
+									>input,
+									>textarea{
+										.fontSize(12px);
+									}
+									>label{
+										.margin-bm(11px);
+									}
+									>input{
+										.text-in(15px);
+										.height(36px);
+									}
+								}
+								.form-groups.form-textarea{
+									>textarea{
+										.text-in(15px);
+										.height(117px);
+										.padding-tp(11px);
+									}
+								}
+								.btn-submit{
+									.margin(22px auto 0);
+									.width(640px);
+									.line-height(42px);
+									.fontSize(16px);
+								}
+								>p.paragraph{
+									.fontSize(12px);
+									.margin(60px 0 22px);
+								}
+							}
+						}
+					}
+				}
+				.question{
+					.container{
+						.enjoy-body{
+							>p.paragraph{
+								.fontSize(12px);
+								.margin-bm(13px);
+							}
+							.questions-answers{
+								.plate{
+									.padding(30px 60px);
+									.questions{
+										>span{
+											.fontSize(15px);
+											.margin(0 15px);
+										}
+										>p.questios-info{
+											.margin-lt(45px);
+											.fontSize(12px);
+											.margin-bm(15px);
+										}
+									}
+									.answers{
+										>span{
+											.fontSize(15px);
+											.margin(0 15px);
+										}
+										.answers-groups{
+											.padding-lt(45px);
+											>p.answers-info{
+												.fontSize(12px);
+												.margin-bm(15px);
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				.download{
+					.container{
+						.enjoy-body{
+							>p.paragraph{
+								.fontSize(12px);
+								.margin-bm(13px);
+							}
+							>ul.download-center{
+								.padding(0 60px);
+								>li{
+									.width(25%);
+									.container{
+										.download-lt{
+											.width(105px);
+											.line-height(58px);
+											.margin(0 15px);	
+											>a{
+												.fontSize(12px);
+											}
+										}
+										.download-rt{
+											.width(172px);
+											.date{
+												.fontSize(12px);
+												.margin-bm(10px);
+											}
+											>h3.level-3{
+												.fontSize(12px);
+											}
+											>p.download-info{
+												.fontSize(12px);
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1920px){
+	.enjoy-service{
+		.margin-tp(@hd_height);
+		.newsBannerMax;
+		.container{
+			.service-progress{
+				.padding(20px 0);
+				>span.service-type{
+					.padding(0 40px);
+					.fontSize(24px);
+				}
+			}
+			>ul.service-content{
+				>li.service-items{
+					.container{
+						.padding(25px 0 50px 0);
+						.enjoy-head{
+							.padding(0 80px);
+							.margin(25px 0);
+							>h1.level-1{
+								.fontSize(30px);
+								.fontWeight(100);
+								>span{
+									.fontSize(20px);
+									.margin-lt(8px);
+								}
+							}
+						}
+						.enjoy-body{
+							>p.paragraph{
+								.padding(0 80px);
+							}
+						}
+					}
+				}
+				.subscription{
+					.container{
+						.enjoy-body{
+							>p.paragraph{
+								.fontSize(14px);
+								.margin-bm(18px);
+							}
+							.subscription-content{
+								.margin(68px 0);
+								.padding(0 80px);
+								.subscription-lt{
+									.width(45%);
+									>img{
+										.width(618px);
+									}
+								}
+								.subscription-rt{
+									.width(54%);
+									>p.paragraph{
+										.fontSize(20px);
+										.margin-bm(32px);
+									}
+								}
+							}
+						}
+					}
+				}
+				.booking{
+					.container{
+						.enjoy-body{
+							>p.paragraph{
+								.fontSize(14px);
+								.margin-bm(18px);
+							}
+							>form.online-booking{
+								.padding(0 80px);
+								.form-groups{
+									.width(33%);
+									.margin-bm(50px);
+									.padding-rt(96px);
+									>label,
+									>input,
+									>textarea{
+										.fontSize(14px);
+									}
+									>label{
+										.margin-bm(15px);
+									}
+									>input{
+										.text-in(20px);
+										.height(48px);
+									}
+								}
+								.form-groups.form-textarea{
+									>textarea{
+										.text-in(20px);
+										.height(156px);
+										.padding-tp(15px);
+									}
+								}
+								.btn-submit{
+									.margin(30px auto 0);
+									.width(854px);
+									.line-height(56px);
+									.fontSize(18px);
+								}
+								>p.paragraph{
+									.fontSize(14px);
+									.margin(80px 0 30px);
+								}
+							}
+						}
+					}
+				}
+				.question{
+					.container{
+						.enjoy-body{
+							>p.paragraph{
+								.fontSize(14px);
+								.margin-bm(18px);
+							}
+							.questions-answers{
+								.plate{
+									.padding(40px 80px);
+									.questions{
+										>span{
+											.fontSize(20px);
+											.margin(0 20px);
+										}
+										>p.questios-info{
+											.margin-lt(60px);
+											.fontSize(14px);
+											.margin-bm(20px);
+										}
+									}
+									.answers{
+										>span{
+											.fontSize(20px);
+											.margin(0 20px);
+										}
+										.answers-groups{
+											.padding-lt(60px);
+											>p.answers-info{
+												.fontSize(14px);
+												.margin-bm(20px);
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				.download{
+					.container{
+						.enjoy-body{
+							>p.paragraph{
+								.fontSize(14px);
+								.margin-bm(18px);
+							}
+							>ul.download-center{
+								.padding(0 80px);
+								>li{
+									.width(25%);
+									.container{
+										.download-lt{
+											.width(140px);
+											.line-height(67px);
+											.margin(0 20px);	
+											>a{
+												.fontSize(14px);
+											}
+										}
+										.download-rt{
+											.width(250px);
+											.date{
+												.fontSize(14px);
+												.margin-bm(10px);
+											}
+											>h3.level-3{
+												.fontSize(14px);
+											}
+											>p.download-info{
+												.fontSize(14px);
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

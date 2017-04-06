@@ -1,0 +1,329 @@
+@import "common";
+@import "data";
+
+.news{
+	.width-max();
+	.margin-tp(@hd_height);
+	.newsBanner;
+	.news-main{
+		.width-max();
+		.container{
+			.width-max();
+			.news-panel{
+				.bgColor(@color_ed);
+				.text-al(center);
+				.padding(20px 0);
+				>a.panel-nav{
+					.display(ib);
+					.margin(0 38px);
+					.color(@color_a6);
+					.fontSize(24px);
+					cursor: pointer;
+				}
+				>a.panel-nav.active{
+					.color(@color_4d);
+				}
+				>a,
+				>img{
+					vertical-align: middle;
+				}
+				>img{
+					.width(10px);
+					.height(20px);
+				}
+			}
+			.news-body{
+				.width-max();
+				.color(@color_e6);
+				.padding(0 80px);
+				.news-content.active{
+					.display(b);
+				}
+				.news-content{
+					.width-max();
+					.display(n);
+					>ul.news-groups{
+						.clearfix;
+						>li.news-items{
+							.fl();
+							.width(25%);
+							.padding(0 15px 0 0);
+							.container{
+								.width-max();
+								.padding(28px 0 80px 0);
+								.news-info{
+									.width-max();
+									.border-bm(1px,dotted,#d5d5d5);
+									.padding(0 0 20px 0);
+									>h3,
+									>img,
+									>p{
+										.width-max();
+									}
+									>h3.level-3{
+										.color(@color_4d);
+										.fontSize(16px);
+										.text-al(center);
+									}
+									>img{
+										.margin(20px 0);
+									}
+									>p.news-intro{
+										.color(@color_a6);
+										.fontSize(14px);
+										.text-al(center);
+										line-height: 20px;
+										.height(40px);
+										display: box;
+										display: -webkit-box;
+										display: -moz-box;
+										display: -ms-box;
+										display: -o-box;
+										line-clamp: 2;
+										-webkit-line-clamp: 2;
+										-moz-line-clamp: 2;
+										-ms-line-clamp: 2;
+										-o-line-clamp: 2;
+										box-orient: vertical;
+										-webkit-box-orient: vertical;
+										-moz-box-orient: vertical;
+										-ms-box-orient: vertical;
+										-o-box-orient: vertical;
+										overflow: hidden;
+										text-overflow: ellipsis;
+									}
+								}
+								.news-more{
+									.width-max();
+									.text-al(center);
+									.padding-tp(15px);
+									.date{
+										.text-al(center);
+										.color(@color_a6);
+										.fontSize(14px);
+									}
+									>a.btn{
+										.display(ib);
+										.bgColor(#4A8CAE);
+										.color(@color_ff);
+										.width(248px);
+										.line-height(34px);
+										.fontSize(16px);
+										.margin(15px auto);
+										.border-radius(20px);
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.newsBanner(){
+	.news-banner{
+		.width-max();
+		.pos(rel);
+		>a.banner-show{
+			.width-max();
+			.display(b);
+			>img{
+				.width-max();
+				border: none;
+				outline: none;
+			}
+		}
+		.banner-bg{
+			.pos(abs);
+			.left(0);
+			.top(0);
+			.width-max();
+			.height(100%);
+			>ul.tencent{
+				.pos(abs);
+				.right(@hd_height);
+				.bottom(18px);
+				>li{
+					.fl();
+					.margin-lt(20px);
+					>a.tencent-items{
+						.display(ib);
+						>img{
+							.width(44px);
+							.height(44px);
+							border: none;
+							outline: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1919px){
+	.news{
+		.margin-tp(@sm_height);
+		.newsBannerMin;
+		.news-main{
+			.container{
+				.news-panel{
+					.padding(15px 0);
+					>a.panel-nav{
+						.margin(0 28px);
+						.fontSize(18px);
+					}
+					>img{
+						.width(10px);
+						.height(15px);
+					}
+				}
+				.news-body{
+					.padding(0 60px);
+					.news-content{
+						>ul.news-groups{
+							>li.news-items{
+								.width(25%);
+								.padding(0 15px 0 0);
+								.container{
+									.padding(21px 0 60px 0);
+									.news-info{
+										.padding(0 0 15px 0);
+										>h3.level-3{
+											.fontSize(14px);
+										}
+										>img{
+											.margin(15px 0);
+										}
+										>p.news-intro{
+											.fontSize(12px);
+											line-height: 16px;
+											.height(32px);
+										}
+									}
+									.news-more{
+										.padding-tp(11px);
+										.date{
+											.fontSize(12px);
+										}
+										>a.btn{
+											.width(234px);
+											.line-height(34px);
+											.fontSize(14px);
+											.margin(11px auto);
+											.border-radius(20px);
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.newsBannerMin(){
+	.news-banner{
+		.banner-bg{
+			>ul.tencent{
+				.right(@sm_height);
+				.bottom(14px);
+				>li{
+					.margin-lt(15px);
+					>a.tencent-items{
+						>img{
+							.width(33px);
+							.height(33px);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1920px){
+	.news{
+		.margin-tp(@hd_height);
+		.newsBannerMax;
+		.news-main{
+			.container{
+				.news-panel{
+					.padding(20px 0);
+					>a.panel-nav{
+						.margin(0 38px);
+						.fontSize(24px);
+					}
+					>img{
+						.width(10px);
+						.height(20px);
+					}
+				}
+				.news-body{
+					.padding(0 80px);
+					.news-content{
+						>ul.news-groups{
+							>li.news-items{
+								.width(25%);
+								.padding(0 15px 0 0);
+								.container{
+									.padding(28px 0 80px 0);
+									.news-info{
+										.padding(0 0 20px 0);
+										>h3.level-3{
+											.fontSize(16px);
+										}
+										>img{
+											.margin(20px 0);
+										}
+										>p.news-intro{
+											.fontSize(14px);
+											line-height: 20px;
+											.height(40px);
+										}
+									}
+									.news-more{
+										.padding-tp(15px);
+										.date{
+											.fontSize(14px);
+										}
+										>a.btn{
+											.width(248px);
+											.line-height(34px);
+											.fontSize(16px);
+											.margin(15px auto);
+											.border-radius(20px);
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.newsBannerMax(){
+	.news-banner{
+		.banner-bg{
+			>ul.tencent{
+				.right(@hd_height);
+				.bottom(18px);
+				>li{
+					.margin-lt(20px);
+					>a.tencent-items{
+						>img{
+							.width(44px);
+							.height(44px);
+						}
+					}
+				}
+			}
+		}
+	}
+}

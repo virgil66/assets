@@ -1,0 +1,123 @@
+@charset "utf-8";
+@import "common";
+@import "data";
+
+*{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+html,
+body{
+	.width-max();
+	font-size: 62.5%;
+}
+
+body{
+	.font-fa(ya);
+	.pos(rel);
+	.bgColor(#e6e6e6);
+	min-width: 1200px;
+}
+
+//input输入框以及button按钮
+input,
+button{
+	border: none;
+	outline: none;
+}
+
+//a标签
+a{
+	color: rgb(182,182,182);
+	.text-dec();
+}
+
+@media screen and (max-width: 1280px){
+	.home,
+	.about,
+	.news,
+	.newsInfo,
+	.main-business{
+		margin-top: @sm_height*2 !important;
+	}
+}
+
+@media screen and (max-width: 1400px){
+	.about{
+		.team-content{
+			>ul.member{
+				>li.member-items{
+					width: 50% !important;
+					.member-info{
+						.member-rt{
+							max-width: 318px !important;
+						}
+					}
+				}
+			}
+		}
+	}
+	.news{
+		.news-main{
+			.container{
+				.news-body{
+					.news-content{
+						>ul.news-groups{
+							>li.news-items{
+								width: 33.33% !important;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.recommend{
+		.container{
+			.re-body{
+				>ul.news-groups{
+					>li.news-items{
+						width: 33.33% !important;
+					}
+					>li.news-items:last-child{
+						.display(n);
+					}
+				}
+			}
+		}
+	}
+	.investment-case{
+		.invest-case{
+			.container{
+				.invest-body{
+					>ul.investment-groups{
+						>li.investment-items{
+							width: 20% !important;
+						}
+					}
+				}
+			}
+		}
+	}
+	.enjoy-service{
+		.container{
+			>ul.service-content{
+				.download{
+					ul.download-center{
+						>li{
+							width: 33.33% !important;
+							.container{
+								.download-rt{
+									width: 208px !important;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+

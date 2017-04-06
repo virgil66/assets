@@ -1,0 +1,1043 @@
+@charset "utf-8";
+.news {
+  width: 100%;
+  margin-top: 80px;
+}
+.news .news-banner {
+  width: 100%;
+  position: relative;
+}
+.news .news-banner > a.banner-show {
+  width: 100%;
+  display: block;
+}
+.news .news-banner > a.banner-show > img {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.news .news-banner .banner-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.news .news-banner .banner-bg > ul.tencent {
+  position: absolute;
+  right: 80px;
+  bottom: 18px;
+}
+.news .news-banner .banner-bg > ul.tencent > li {
+  float: left;
+  display: inline;
+  margin-left: 20px;
+}
+.news .news-banner .banner-bg > ul.tencent > li > a.tencent-items {
+  display: inline-block;
+}
+.news .news-banner .banner-bg > ul.tencent > li > a.tencent-items > img {
+  width: 44px;
+  height: 44px;
+  border: none;
+  outline: none;
+}
+.news .news-main {
+  width: 100%;
+}
+.news .news-main .container {
+  width: 100%;
+}
+.news .news-main .container .news-panel {
+  background-color: #ededed;
+  text-align: center;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+.news .news-main .container .news-panel > a.panel-nav {
+  display: inline-block;
+  margin: 0 38px;
+  color: #a6a6a6;
+  font-size: 24px;
+  cursor: pointer;
+}
+.news .news-main .container .news-panel > a.panel-nav.active {
+  color: #4d4d4d;
+}
+.news .news-main .container .news-panel > a,
+.news .news-main .container .news-panel > img {
+  vertical-align: middle;
+}
+.news .news-main .container .news-panel > img {
+  width: 10px;
+  height: 20px;
+}
+.news .news-main .container .news-body {
+  width: 100%;
+  color: #e6e6e6;
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+.news .news-main .container .news-body .news-content.active {
+  display: block;
+}
+.news .news-main .container .news-body .news-content {
+  width: 100%;
+  display: none;
+}
+.news .news-main .container .news-body .news-content > ul.news-groups {
+  *zoom: 1;
+}
+.news .news-main .container .news-body .news-content > ul.news-groups:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.news .news-main .container .news-body .news-content > ul.news-groups > li.news-items {
+  float: left;
+  display: inline;
+  width: 25%;
+  padding: 0 15px 0 0;
+  box-sizing: border-box;
+}
+.news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container {
+  width: 100%;
+  padding: 28px 0 80px 0;
+  box-sizing: border-box;
+}
+.news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-info {
+  width: 100%;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #d5d5d5;
+  padding: 0 0 20px 0;
+  box-sizing: border-box;
+}
+.news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-info > h3,
+.news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-info > img,
+.news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-info > p {
+  width: 100%;
+}
+.news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-info > h3.level-3 {
+  color: #4d4d4d;
+  font-size: 16px;
+  text-align: center;
+}
+.news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-info > img {
+  margin: 20px 0;
+}
+.news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-info > p.news-intro {
+  color: #a6a6a6;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  height: 40px;
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -moz-line-clamp: 2;
+  -ms-line-clamp: 2;
+  -o-line-clamp: 2;
+  box-orient: vertical;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -o-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-more {
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+.news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-more .date {
+  text-align: center;
+  color: #a6a6a6;
+  font-size: 14px;
+}
+.news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-more > a.btn {
+  display: inline-block;
+  background-color: #4a8cae;
+  color: #ffffff;
+  width: 248px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 16px;
+  margin: 15px auto;
+  border-radius: 20px;
+}
+@media screen and (max-width: 1919px) {
+  .news {
+    margin-top: 60px;
+  }
+  .news .news-banner .banner-bg > ul.tencent {
+    right: 60px;
+    bottom: 14px;
+  }
+  .news .news-banner .banner-bg > ul.tencent > li {
+    margin-left: 15px;
+  }
+  .news .news-banner .banner-bg > ul.tencent > li > a.tencent-items > img {
+    width: 33px;
+    height: 33px;
+  }
+  .news .news-main .container .news-panel {
+    padding: 15px 0;
+    box-sizing: border-box;
+  }
+  .news .news-main .container .news-panel > a.panel-nav {
+    margin: 0 28px;
+    font-size: 18px;
+  }
+  .news .news-main .container .news-panel > img {
+    width: 10px;
+    height: 15px;
+  }
+  .news .news-main .container .news-body {
+    padding: 0 60px;
+    box-sizing: border-box;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items {
+    width: 25%;
+    padding: 0 15px 0 0;
+    box-sizing: border-box;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container {
+    padding: 21px 0 60px 0;
+    box-sizing: border-box;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-info {
+    padding: 0 0 15px 0;
+    box-sizing: border-box;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-info > h3.level-3 {
+    font-size: 14px;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-info > img {
+    margin: 15px 0;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-info > p.news-intro {
+    font-size: 12px;
+    line-height: 16px;
+    height: 32px;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-more {
+    padding-top: 11px;
+    box-sizing: border-box;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-more .date {
+    font-size: 12px;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-more > a.btn {
+    width: 234px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    margin: 11px auto;
+    border-radius: 20px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .news {
+    margin-top: 80px;
+  }
+  .news .news-banner .banner-bg > ul.tencent {
+    right: 80px;
+    bottom: 18px;
+  }
+  .news .news-banner .banner-bg > ul.tencent > li {
+    margin-left: 20px;
+  }
+  .news .news-banner .banner-bg > ul.tencent > li > a.tencent-items > img {
+    width: 44px;
+    height: 44px;
+  }
+  .news .news-main .container .news-panel {
+    padding: 20px 0;
+    box-sizing: border-box;
+  }
+  .news .news-main .container .news-panel > a.panel-nav {
+    margin: 0 38px;
+    font-size: 24px;
+  }
+  .news .news-main .container .news-panel > img {
+    width: 10px;
+    height: 20px;
+  }
+  .news .news-main .container .news-body {
+    padding: 0 80px;
+    box-sizing: border-box;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items {
+    width: 25%;
+    padding: 0 15px 0 0;
+    box-sizing: border-box;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container {
+    padding: 28px 0 80px 0;
+    box-sizing: border-box;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-info {
+    padding: 0 0 20px 0;
+    box-sizing: border-box;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-info > h3.level-3 {
+    font-size: 16px;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-info > img {
+    margin: 20px 0;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-info > p.news-intro {
+    font-size: 14px;
+    line-height: 20px;
+    height: 40px;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-more {
+    padding-top: 15px;
+    box-sizing: border-box;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-more .date {
+    font-size: 14px;
+  }
+  .news .news-main .container .news-body .news-content > ul.news-groups > li.news-items .container .news-more > a.btn {
+    width: 248px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+    margin: 15px auto;
+    border-radius: 20px;
+  }
+}
+.enjoy-service {
+  width: 100%;
+  background-color: #ededed;
+  margin-top: 80px;
+}
+.enjoy-service .news-banner {
+  width: 100%;
+  position: relative;
+}
+.enjoy-service .news-banner > a.banner-show {
+  width: 100%;
+  display: block;
+}
+.enjoy-service .news-banner > a.banner-show > img {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.enjoy-service .news-banner .banner-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.enjoy-service .news-banner .banner-bg > ul.tencent {
+  position: absolute;
+  right: 80px;
+  bottom: 18px;
+}
+.enjoy-service .news-banner .banner-bg > ul.tencent > li {
+  float: left;
+  display: inline;
+  margin-left: 20px;
+}
+.enjoy-service .news-banner .banner-bg > ul.tencent > li > a.tencent-items {
+  display: inline-block;
+}
+.enjoy-service .news-banner .banner-bg > ul.tencent > li > a.tencent-items > img {
+  width: 44px;
+  height: 44px;
+  border: none;
+  outline: none;
+}
+.enjoy-service .container {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.enjoy-service .container .service-progress {
+  width: 100%;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+.enjoy-service .container .service-progress > span.service-type {
+  color: #a6a6a6;
+  display: inline-block;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #d5d5d5;
+  cursor: pointer;
+  padding: 0 40px;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+.enjoy-service .container .service-progress > span.service-type:last-child {
+  border-right-width: 0px;
+  border-right-style: solid;
+  border-right-color: #d5d5d5;
+}
+.enjoy-service .container .service-progress > span.service-type.active {
+  color: #4d4d4d;
+}
+.enjoy-service .container > ul.service-content {
+  width: 100%;
+  background-color: #e6e6e6;
+}
+.enjoy-service .container > ul.service-content > li.service-items {
+  display: none;
+  width: 100%;
+  background-color: #e6e6e6;
+}
+.enjoy-service .container > ul.service-content > li.service-items .container {
+  background-color: #e6e6e6;
+  width: 100%;
+  padding: 25px 0 50px 0;
+  box-sizing: border-box;
+}
+.enjoy-service .container > ul.service-content > li.service-items .container .enjoy-head {
+  padding: 0 80px;
+  box-sizing: border-box;
+  margin: 25px 0;
+}
+.enjoy-service .container > ul.service-content > li.service-items .container .enjoy-head > h1.level-1 {
+  width: 100%;
+  color: #4d4d4d;
+  font-size: 30px;
+  font-weight: 100;
+}
+.enjoy-service .container > ul.service-content > li.service-items .container .enjoy-head > h1.level-1 > span {
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #a6a6a6;
+  font-size: 20px;
+  margin-left: 8px;
+}
+.enjoy-service .container > ul.service-content > li.service-items .container .enjoy-body > p.paragraph {
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+.enjoy-service .container > ul.service-content > li.service-items.active {
+  display: block;
+}
+.enjoy-service .container > ul.service-content .subscription .container .enjoy-body {
+  width: 100%;
+}
+.enjoy-service .container > ul.service-content .subscription .container .enjoy-body > p.paragraph {
+  color: #808080;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+.enjoy-service .container > ul.service-content .subscription .container .enjoy-body .subscription-content {
+  width: 100%;
+  *zoom: 1;
+  margin: 68px 0;
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+.enjoy-service .container > ul.service-content .subscription .container .enjoy-body .subscription-content:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.enjoy-service .container > ul.service-content .subscription .container .enjoy-body .subscription-content > span {
+  vertical-align: middle;
+}
+.enjoy-service .container > ul.service-content .subscription .container .enjoy-body .subscription-content .subscription-lt {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+}
+.enjoy-service .container > ul.service-content .subscription .container .enjoy-body .subscription-content .subscription-lt > img {
+  width: 618px;
+  vertical-align: middle;
+}
+.enjoy-service .container > ul.service-content .subscription .container .enjoy-body .subscription-content .subscription-rt {
+  display: inline-block;
+  width: 54%;
+}
+.enjoy-service .container > ul.service-content .subscription .container .enjoy-body .subscription-content .subscription-rt > p.paragraph {
+  color: #4c4c4c;
+  font-size: 20px;
+  margin-bottom: 32px;
+  font-weight: bold;
+}
+.enjoy-service .container > ul.service-content .booking .container .enjoy-body {
+  width: 100%;
+}
+.enjoy-service .container > ul.service-content .booking .container .enjoy-body > p.paragraph {
+  color: #808080;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+.enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking {
+  width: 100%;
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+.enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups {
+  display: inline-block;
+  width: 33%;
+  margin-bottom: 50px;
+  padding-right: 96px;
+  box-sizing: border-box;
+}
+.enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups > label,
+.enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups > input,
+.enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups > textarea {
+  width: 100%;
+  outline: none;
+  display: block;
+  font-size: 14px;
+}
+.enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups > label {
+  color: #4d4d4d;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups > input {
+  color: #a6a6a6;
+  background-color: #ededed;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cccccc;
+  text-indent: 20px;
+  height: 48px;
+}
+.enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups.form-textarea {
+  width: 100%;
+}
+.enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups.form-textarea > textarea {
+  resize: none;
+  color: #a6a6a6;
+  background-color: #ededed;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cccccc;
+  text-indent: 20px;
+  height: 156px;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+.enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .btn-submit {
+  text-align: center;
+  margin: 30px auto 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background-color: #498cae;
+  color: #ffffff;
+  width: 854px;
+  height: 56px;
+  line-height: 56px;
+  font-size: 18px;
+}
+.enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking > p.paragraph {
+  width: 100%;
+  text-align: center;
+  color: #808080;
+  font-size: 14px;
+  margin: 80px 0 30px;
+}
+.enjoy-service .container > ul.service-content .question .container {
+  padding-bottom: 0 !important;
+}
+.enjoy-service .container > ul.service-content .question .container .enjoy-body {
+  width: 100%;
+}
+.enjoy-service .container > ul.service-content .question .container .enjoy-body > p.paragraph {
+  color: #808080;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+.enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers {
+  width: 100%;
+}
+.enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate {
+  width: 100%;
+  padding: 40px 80px;
+  box-sizing: border-box;
+}
+.enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate .questions {
+  width: 100%;
+  position: relative;
+}
+.enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate .questions > span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  color: #808080;
+  font-size: 20px;
+  margin: 0 20px;
+}
+.enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate .questions > p.questios-info {
+  margin-left: 60px;
+  color: #498cae;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate .answers {
+  width: 100%;
+  position: relative;
+}
+.enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate .answers > span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  color: #808080;
+  font-size: 20px;
+  margin: 0 20px;
+}
+.enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate .answers .answers-groups {
+  padding-left: 60px;
+  box-sizing: border-box;
+}
+.enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate .answers .answers-groups > p.answers-info {
+  color: #808080;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate:nth-child(odd) {
+  background-color: #e6e6e6;
+}
+.enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.enjoy-service .container > ul.service-content .download .container .enjoy-body {
+  width: 100%;
+}
+.enjoy-service .container > ul.service-content .download .container .enjoy-body > p.paragraph {
+  color: #808080;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+.enjoy-service .container > ul.service-content .download .container .enjoy-body > p.paragraph:last-child {
+  margin-bottom: 0;
+}
+.enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center {
+  width: 100%;
+  *zoom: 1;
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+.enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li {
+  width: 25%;
+  float: left;
+  display: inline;
+}
+.enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container {
+  width: 100%;
+  *zoom: 1;
+}
+.enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-lt {
+  float: left;
+  display: inline;
+  background-color: #498cae;
+  text-align: center;
+  width: 140px;
+  height: 67px;
+  line-height: 67px;
+  margin: 0 20px;
+}
+.enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-lt > a {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-lt > a:hover {
+  text-decoration: underline;
+}
+.enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-rt {
+  width: 250px;
+  float: left;
+  display: inline;
+}
+.enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-rt .date {
+  color: #498cae;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-rt > h3.level-3 {
+  text-transform: uppercase;
+  color: #4d4d4d;
+  font-weight: bold;
+  font-size: 14px;
+}
+.enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-rt > p.download-info {
+  color: #a6a6a6;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+  -moz-text-overflow: ellipsis;
+  -mz-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media screen and (max-width: 1919px) {
+  .enjoy-service {
+    margin-top: 60px;
+  }
+  .enjoy-service .news-banner .banner-bg > ul.tencent {
+    right: 60px;
+    bottom: 14px;
+  }
+  .enjoy-service .news-banner .banner-bg > ul.tencent > li {
+    margin-left: 15px;
+  }
+  .enjoy-service .news-banner .banner-bg > ul.tencent > li > a.tencent-items > img {
+    width: 33px;
+    height: 33px;
+  }
+  .enjoy-service .container .service-progress {
+    padding: 15px 0;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container .service-progress > span.service-type {
+    padding: 0 30px;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  .enjoy-service .container > ul.service-content > li.service-items .container {
+    padding: 18px 0 36px 0;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content > li.service-items .container .enjoy-head {
+    padding: 0 60px;
+    box-sizing: border-box;
+    margin: 18px 0;
+  }
+  .enjoy-service .container > ul.service-content > li.service-items .container .enjoy-head > h1.level-1 {
+    font-size: 22px;
+  }
+  .enjoy-service .container > ul.service-content > li.service-items .container .enjoy-head > h1.level-1 > span {
+    font-size: 15px;
+    margin-left: 8px;
+  }
+  .enjoy-service .container > ul.service-content > li.service-items .container .enjoy-body > p.paragraph {
+    padding: 0 60px;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content .subscription .container .enjoy-body > p.paragraph {
+    font-size: 12px;
+    margin-bottom: 13px;
+  }
+  .enjoy-service .container > ul.service-content .subscription .container .enjoy-body .subscription-content {
+    margin: 51px 0;
+    padding: 0 60px;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content .subscription .container .enjoy-body .subscription-content .subscription-lt {
+    width: 45%;
+  }
+  .enjoy-service .container > ul.service-content .subscription .container .enjoy-body .subscription-content .subscription-lt > img {
+    width: 463px;
+  }
+  .enjoy-service .container > ul.service-content .subscription .container .enjoy-body .subscription-content .subscription-rt {
+    width: 54%;
+  }
+  .enjoy-service .container > ul.service-content .subscription .container .enjoy-body .subscription-content .subscription-rt > p.paragraph {
+    font-size: 15px;
+    margin-bottom: 24px;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > p.paragraph {
+    font-size: 12px;
+    margin-bottom: 13px;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking {
+    padding: 0 60px;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups {
+    width: 33%;
+    margin-bottom: 37px;
+    padding-right: 72px;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups > label,
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups > input,
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups > textarea {
+    font-size: 12px;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups > label {
+    margin-bottom: 11px;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups > input {
+    text-indent: 15px;
+    height: 36px;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups.form-textarea > textarea {
+    text-indent: 15px;
+    height: 117px;
+    padding-top: 11px;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .btn-submit {
+    margin: 22px auto 0;
+    width: 640px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking > p.paragraph {
+    font-size: 12px;
+    margin: 60px 0 22px;
+  }
+  .enjoy-service .container > ul.service-content .question .container .enjoy-body > p.paragraph {
+    font-size: 12px;
+    margin-bottom: 13px;
+  }
+  .enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate {
+    padding: 30px 60px;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate .questions > span {
+    font-size: 15px;
+    margin: 0 15px;
+  }
+  .enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate .questions > p.questios-info {
+    margin-left: 45px;
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate .answers > span {
+    font-size: 15px;
+    margin: 0 15px;
+  }
+  .enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate .answers .answers-groups {
+    padding-left: 45px;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate .answers .answers-groups > p.answers-info {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > p.paragraph {
+    font-size: 12px;
+    margin-bottom: 13px;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center {
+    padding: 0 60px;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li {
+    width: 25%;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-lt {
+    width: 105px;
+    height: 58px;
+    line-height: 58px;
+    margin: 0 15px;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-lt > a {
+    font-size: 12px;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-rt {
+    width: 172px;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-rt .date {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-rt > h3.level-3 {
+    font-size: 12px;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-rt > p.download-info {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .enjoy-service {
+    margin-top: 80px;
+  }
+  .enjoy-service .news-banner .banner-bg > ul.tencent {
+    right: 80px;
+    bottom: 18px;
+  }
+  .enjoy-service .news-banner .banner-bg > ul.tencent > li {
+    margin-left: 20px;
+  }
+  .enjoy-service .news-banner .banner-bg > ul.tencent > li > a.tencent-items > img {
+    width: 44px;
+    height: 44px;
+  }
+  .enjoy-service .container .service-progress {
+    padding: 20px 0;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container .service-progress > span.service-type {
+    padding: 0 40px;
+    box-sizing: border-box;
+    font-size: 24px;
+  }
+  .enjoy-service .container > ul.service-content > li.service-items .container {
+    padding: 25px 0 50px 0;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content > li.service-items .container .enjoy-head {
+    padding: 0 80px;
+    box-sizing: border-box;
+    margin: 25px 0;
+  }
+  .enjoy-service .container > ul.service-content > li.service-items .container .enjoy-head > h1.level-1 {
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .enjoy-service .container > ul.service-content > li.service-items .container .enjoy-head > h1.level-1 > span {
+    font-size: 20px;
+    margin-left: 8px;
+  }
+  .enjoy-service .container > ul.service-content > li.service-items .container .enjoy-body > p.paragraph {
+    padding: 0 80px;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content .subscription .container .enjoy-body > p.paragraph {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+  .enjoy-service .container > ul.service-content .subscription .container .enjoy-body .subscription-content {
+    margin: 68px 0;
+    padding: 0 80px;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content .subscription .container .enjoy-body .subscription-content .subscription-lt {
+    width: 45%;
+  }
+  .enjoy-service .container > ul.service-content .subscription .container .enjoy-body .subscription-content .subscription-lt > img {
+    width: 618px;
+  }
+  .enjoy-service .container > ul.service-content .subscription .container .enjoy-body .subscription-content .subscription-rt {
+    width: 54%;
+  }
+  .enjoy-service .container > ul.service-content .subscription .container .enjoy-body .subscription-content .subscription-rt > p.paragraph {
+    font-size: 20px;
+    margin-bottom: 32px;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > p.paragraph {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking {
+    padding: 0 80px;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups {
+    width: 33%;
+    margin-bottom: 50px;
+    padding-right: 96px;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups > label,
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups > input,
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups > textarea {
+    font-size: 14px;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups > label {
+    margin-bottom: 15px;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups > input {
+    text-indent: 20px;
+    height: 48px;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .form-groups.form-textarea > textarea {
+    text-indent: 20px;
+    height: 156px;
+    padding-top: 15px;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking .btn-submit {
+    margin: 30px auto 0;
+    width: 854px;
+    height: 56px;
+    line-height: 56px;
+    font-size: 18px;
+  }
+  .enjoy-service .container > ul.service-content .booking .container .enjoy-body > form.online-booking > p.paragraph {
+    font-size: 14px;
+    margin: 80px 0 30px;
+  }
+  .enjoy-service .container > ul.service-content .question .container .enjoy-body > p.paragraph {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+  .enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate {
+    padding: 40px 80px;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate .questions > span {
+    font-size: 20px;
+    margin: 0 20px;
+  }
+  .enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate .questions > p.questios-info {
+    margin-left: 60px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate .answers > span {
+    font-size: 20px;
+    margin: 0 20px;
+  }
+  .enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate .answers .answers-groups {
+    padding-left: 60px;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content .question .container .enjoy-body .questions-answers .plate .answers .answers-groups > p.answers-info {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > p.paragraph {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center {
+    padding: 0 80px;
+    box-sizing: border-box;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li {
+    width: 25%;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-lt {
+    width: 140px;
+    height: 67px;
+    line-height: 67px;
+    margin: 0 20px;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-lt > a {
+    font-size: 14px;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-rt {
+    width: 250px;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-rt .date {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-rt > h3.level-3 {
+    font-size: 14px;
+  }
+  .enjoy-service .container > ul.service-content .download .container .enjoy-body > ul.download-center > li .container .download-rt > p.download-info {
+    font-size: 14px;
+  }
+}

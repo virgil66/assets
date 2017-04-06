@@ -1,0 +1,161 @@
+@charset "utf-8";
+footer.foot {
+  width: 100%;
+  padding: 32px 80px;
+  box-sizing: border-box;
+  background-color: #fafafa;
+}
+footer.foot .foot-container {
+  width: 100%;
+}
+footer.foot .foot-container .foot-head {
+  width: 100%;
+}
+footer.foot .foot-container .foot-head > h6,
+footer.foot .foot-container .foot-head .links-groups {
+  width: 100%;
+  text-align: center;
+}
+footer.foot .foot-container .foot-head > h6.foot-level-6 {
+  color: #acacac;
+  font-size: 14px;
+}
+footer.foot .foot-container .foot-head .links-groups {
+  margin-top: 20px;
+}
+footer.foot .foot-container .foot-head .links-groups > span {
+  display: inline-block;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #4d4d4d;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+footer.foot .foot-container .foot-head .links-groups > span > a.foot-items {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #4d4d4d;
+  font-size: 14px;
+}
+footer.foot .foot-container .foot-head .links-groups > span > a.foot-items:hover,
+footer.foot .foot-container .foot-head .links-groups > span > a.foot-items:active {
+  text-decoration: underline;
+}
+footer.foot .foot-container .foot-head .links-groups > span:last-child {
+  border-right-width: 0px;
+  border-right-style: solid;
+  border-right-color: #4d4d4d;
+}
+footer.foot .foot-container .foot-tail {
+  width: 100%;
+  margin-top: 55px;
+}
+footer.foot .foot-container .foot-tail .foot-tail-service {
+  width: 100%;
+  text-align: center;
+}
+footer.foot .foot-container .foot-tail .foot-tail-service .service-items {
+  display: inline-block;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #4d4d4d;
+  color: #4d4d4d;
+  font-size: 14px;
+}
+footer.foot .foot-container .foot-tail .foot-tail-service .service-items > span:first-child {
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+footer.foot .foot-container .foot-tail .foot-tail-service .service-items > span:last-child {
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+footer.foot .foot-container .foot-tail .foot-tail-service .service-items:last-child {
+  border-right-width: 0px;
+  border-right-style: solid;
+  border-right-color: #4d4d4d;
+}
+footer.foot .foot-container .foot-tail > p {
+  text-align: center;
+  color: #4d4d4d;
+  font-size: 14px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 1919px) {
+  footer.foot {
+    padding: 24px 60px;
+    box-sizing: border-box;
+  }
+  footer.foot .foot-container .foot-head > h6.foot-level-6 {
+    font-size: 12px;
+  }
+  footer.foot .foot-container .foot-head .links-groups {
+    margin-top: 15px;
+  }
+  footer.foot .foot-container .foot-head .links-groups > span {
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  footer.foot .foot-container .foot-head .links-groups > span > a.foot-items {
+    font-size: 12px;
+  }
+  footer.foot .foot-container .foot-tail {
+    margin-top: 41px;
+  }
+  footer.foot .foot-container .foot-tail .foot-tail-service .service-items {
+    font-size: 12px;
+  }
+  footer.foot .foot-container .foot-tail .foot-tail-service .service-items > span:first-child {
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  footer.foot .foot-container .foot-tail .foot-tail-service .service-items > span:last-child {
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+  footer.foot .foot-container .foot-tail > p {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  footer.foot {
+    padding: 32px 80px;
+    box-sizing: border-box;
+  }
+  footer.foot .foot-container .foot-head > h6.foot-level-6 {
+    font-size: 14px;
+  }
+  footer.foot .foot-container .foot-head .links-groups {
+    margin-top: 20px;
+  }
+  footer.foot .foot-container .foot-head .links-groups > span {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  footer.foot .foot-container .foot-head .links-groups > span > a.foot-items {
+    font-size: 14px;
+  }
+  footer.foot .foot-container .foot-tail {
+    margin-top: 55px;
+  }
+  footer.foot .foot-container .foot-tail .foot-tail-service .service-items {
+    font-size: 14px;
+  }
+  footer.foot .foot-container .foot-tail .foot-tail-service .service-items > span:first-child {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  footer.foot .foot-container .foot-tail .foot-tail-service .service-items > span:last-child {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  footer.foot .foot-container .foot-tail > p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}
