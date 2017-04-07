@@ -1601,8 +1601,27 @@
   font-size: 14px;
   margin-bottom: 18px;
 }
+.main-business .business-profile .container .business-body > p.paragraph.paragraph-bold {
+  font-weight: bold;
+  color: #444;
+}
 .main-business .business-profile .container .business-body > p.paragraph:last-child {
   margin-bottom: 0;
+}
+.main-business .business-profile .container .business-body > p.paragraph-top {
+  margin-top: 30px;
+}
+.main-business .business-profile .container .business-body .business-type-items .business-type-item {
+  margin-bottom: 10px;
+}
+.main-business .business-profile .container .business-body .business-type-items h6.level-6 {
+  color: #444;
+  font-size: 14px;
+  font-weight: bold;
+}
+.main-business .business-profile .container .business-body .business-type-items p.business-type-item-content {
+  color: #808080;
+  font-size: 14px;
 }
 .main-business .offering-fund {
   padding: 54px 80px;
@@ -1858,6 +1877,18 @@
     font-size: 12px;
     margin-bottom: 13px;
   }
+  .main-business .business-profile .container .business-body > p.paragraph-top {
+    margin-top: 20px;
+  }
+  .main-business .business-profile .container .business-body .business-type-items .business-type-item {
+    margin-bottom: 6px;
+  }
+  .main-business .business-profile .container .business-body .business-type-items h6.level-6 {
+    font-size: 12px;
+  }
+  .main-business .business-profile .container .business-body .business-type-items p.business-type-item-content {
+    font-size: 12px;
+  }
   .main-business .offering-fund {
     padding: 37px 60px;
     box-sizing: border-box;
@@ -2007,6 +2038,18 @@
   .main-business .business-profile .container .business-body > p.paragraph {
     font-size: 14px;
     margin-bottom: 18px;
+  }
+  .main-business .business-profile .container .business-body > p.paragraph-top {
+    margin-top: 30px;
+  }
+  .main-business .business-profile .container .business-body .business-type-items .business-type-item {
+    margin-bottom: 10px;
+  }
+  .main-business .business-profile .container .business-body .business-type-items h6.level-6 {
+    font-size: 14px;
+  }
+  .main-business .business-profile .container .business-body .business-type-items p.business-type-item-content {
+    font-size: 14px;
   }
   .main-business .offering-fund {
     padding: 54px 80px;

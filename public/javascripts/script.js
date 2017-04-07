@@ -5,11 +5,24 @@
 	 */
 	var $header = $('#head');
 	var $navBanner = $header.find('>ul.nav-groups >li');
+
+	$navBanner.on('click', function(e){
+		
+		$(this)
+			.find('nav-items')
+			.find('>p.nav-items-en')
+			.addClass('active')
+			.parents('li')
+			.siblings('li').find('.nav-items-en').removeClass('active');
+	});
+
+
 	var hash = window.location.hash;
 
 	switch(hash){
 		case "": {
 			activeBtn(0);
+			$('.search-bg').hide();
 			break;
 		}
 		case "#2": {
@@ -48,15 +61,6 @@
 			.find('>a.nav-items >p.nav-items-en')
 			.removeClass('active');
 	}
-
-	// $navBanner.on('click', function(e){
-		
-	// 	$(this)
-	// 		.find('.nav-items-en')
-	// 		.addClass('active')
-	// 		.parents('li')
-	// 		.siblings('li').find('.nav-items-en').removeClass('active');
-	// })
 
 
 
